@@ -15,5 +15,6 @@ restartedMain][0;39m [2m[0;39m[36mConfigServletWebServerApplicationContext[
 docker build --platform linux/amd64 -t sadulamahalaxmi9/fortune-generator:1.3 .
 docker run -p 8080:8080 sadulamahalaxmi9/fortune-generator:1.3
 docker push  sadulamahalaxmi9/fortune-generator:1.3  
+kubectl expose deployment fortune-generator-deployment --type=LoadBalancer --port=80 --target-port=8080
 
 https://waytohksharma.medium.com/exec-usr-local-openjdk-11-bin-java-exec-format-1b68effb2446
