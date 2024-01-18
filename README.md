@@ -11,3 +11,6 @@ restartedMain][0;39m [2m[0;39m[36mConfigServletWebServerApplicationContext[
 ![image](https://github.com/MahalaxmiSadula/fortune-generator/assets/139921242/eabe7cc2-9ac9-4d6e-adf2-3dead08415be)
 
 ![image](https://github.com/MahalaxmiSadula/fortune-generator/assets/139921242/9da49d28-0d1e-4c5e-80ba-d3f961dbd21f)
+
+docker build -t sadulamahalaxmi9/fortune-generator:1.2 . 
+docker run -p 8080:8080 sadulamahalaxmi9/fortune-generator:1.2
