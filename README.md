@@ -12,7 +12,8 @@ restartedMain][0;39m [2m[0;39m[36mConfigServletWebServerApplicationContext[
 
 ![image](https://github.com/MahalaxmiSadula/fortune-generator/assets/139921242/9da49d28-0d1e-4c5e-80ba-d3f961dbd21f)
 
-docker build -t sadulamahalaxmi9/fortune-generator:1.2 . 
-docker run -p 8080:8080 sadulamahalaxmi9/fortune-generator:1.2
+docker build --platform linux/amd64 -t sadulamahalaxmi9/fortune-generator:1.3 .
+docker run -p 8080:8080 sadulamahalaxmi9/fortune-generator:1.3
+docker push  sadulamahalaxmi9/fortune-generator:1.3  
 
 https://waytohksharma.medium.com/exec-usr-local-openjdk-11-bin-java-exec-format-1b68effb2446
