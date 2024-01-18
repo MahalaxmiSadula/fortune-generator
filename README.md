@@ -14,3 +14,5 @@ restartedMain][0;39m [2m[0;39m[36mConfigServletWebServerApplicationContext[
 
 docker build -t sadulamahalaxmi9/fortune-generator:1.2 . 
 docker run -p 8080:8080 sadulamahalaxmi9/fortune-generator:1.2
+
+https://waytohksharma.medium.com/exec-usr-local-openjdk-11-bin-java-exec-format-1b68effb2446
